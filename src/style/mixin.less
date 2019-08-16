@@ -1,0 +1,65 @@
+//设局图为750时，假如所有手机都为375，整个布局以750图设定
+//移动端自适应请用mixin函数
+.width(@px){
+    width: unit(@px/37.5,rem);
+}
+.height(@px){
+    height: unit(@px/37.5,rem);
+}
+.fontSize(@px){
+    font-size: unit(@px/37.5,rem);
+}
+.lineHeight(@px){
+    line-height: unit(@px/37.5,rem);
+}
+.margin(@px){
+    margin: unit(@px/37.5,rem);
+}
+.margin(@px,@px1){
+    margin: unit(@px/37.5,rem), unit(@px1/37.5,rem);
+}
+.marginT(@px){
+    margin-top: unit(@px/37.5,rem);
+}
+.marginR(@px){
+    margin-right: unit(@px/37.5,rem);
+}
+.marginB(@px){
+    margin-bottom: unit(@px/37.5,rem);
+}
+.marginL(@px){
+    margin-left: unit(@px/37.5,rem);
+}
+.padding(@px){
+    padding: unit(@px/37.5,rem);
+}
+.padding(@px,@px1){
+    padding: unit(@px/37.5,rem),unit(@px1/37.5,rem);
+}
+.paddingT(@px){
+    padding-top: unit(@px/37.5,rem);
+}
+.paddingR(@px){
+    padding-right: unit(@px/37.5,rem);
+}
+.paddingB(@px){
+    padding-bottom: unit(@px/37.5,rem);
+}
+.paddingL(@px){
+    padding-left: unit(@px/37.5,rem);
+}
+.left(@px) {
+    left: unit(@px/37.5,rem);
+} 
+.right(@px) {
+    right: unit(@px/37.5,rem);
+}
+.top(@px) {
+    top: unit(@px/37.5,rem);
+}
+.bottom(@px) {
+    border-bottom: unit(@px/37.5,rem);
+}
+.borderRadius(@px){
+    border-radius:  unit(@px/37.5,rem);
+}

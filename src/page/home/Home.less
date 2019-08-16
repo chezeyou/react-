@@ -1,0 +1,53 @@
+@import '../../style/main.less';
+
+.home {
+    position: relative;
+}
+
+.ant-carousel .slick-slide {
+    text-align: center;
+    .height(200);
+    .lineHeight(200);
+    background: #364d79;
+    overflow: hidden;
+}
+.ant-carousel .slick-slide img{
+    .width(375);
+    .height(200)
+}
+
+.section {
+    border: 1px solid #000;
+    .borderRadius(30);
+    .width(330);
+    .height(32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    .fontSize(14);
+    position: absolute;
+    .top(57);
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 10;
+    background: #fff;
+};
+.themeTitle{
+    .height(45); .width(375); .lineHeight(45); text-align: center; .fontSize(14); color: #AB956D;
+};
+.theme{
+    .width(375);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .smallImg image{
+    .width(185);
+    .height(120);
+  }
+  .bigImg image{
+    .width(375);
+    .height(120);
+  }
